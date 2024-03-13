@@ -1,4 +1,5 @@
 import mods.create.PressingManager;
+import mods.create.CompactingManager;
 
 #Coins crafting removal
 <recipetype:create:pressing>.remove(<item:createdeco:zinc_coin>);
@@ -17,3 +18,6 @@ craftingTable.addShapeless("iron_coin_1", <item:createdeco:iron_coin>, [<item:cr
 
 #Gold coin crafting
 craftingTable.addShapeless("gold_coin_1", <item:createdeco:gold_coin>, [<item:createdeco:iron_coinstack>, <item:createdeco:iron_coinstack>, <item:createdeco:iron_coinstack>, <item:createdeco:iron_coinstack>]);
+
+
+<recipetype:create:compacting>.addRecipe('cast_iron_1', <constant:create:heat_condition:none>, [<item:createdeco:cast_iron_ingot> % 100], [<item:minecraft:iron_ingot>], [<fluid:minecraft:lava> * 100]);
