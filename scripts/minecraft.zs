@@ -22,7 +22,6 @@ craftingTable.remove(<item:minecraft:soul_soil>);
 
 
 craftingTable.addShaped('chainmail_armor_1', <item:minecraft:chainmail_helmet>, [
-    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
     [<item:minecraft:chain>, <item:minecraft:chain>, <item:minecraft:chain>],
     [<item:minecraft:chain>, <item:minecraft:air>, <item:minecraft:chain>]
 ]);
@@ -40,7 +39,6 @@ craftingTable.addShaped('chainmail_armor_3', <item:minecraft:chainmail_leggings>
 ]);
 
 craftingTable.addShaped('chainmail_armor_4', <item:minecraft:chainmail_boots>, [
-    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
     [<item:minecraft:chain>, <item:minecraft:air>, <item:minecraft:chain>],
     [<item:minecraft:chain>, <item:minecraft:air>, <item:minecraft:chain>]
 ]);
