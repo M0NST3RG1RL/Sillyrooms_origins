@@ -1,0 +1,2 @@
+<recipetype:vinery:wine_fermentation>.remove(<item:vinery:cristel_wine>);
+<recipetype:vinery:wine_fermentation>.addJsonRecipe('cristel_wine_1', {"type": "vinery:wine_fermentation","ingredients": [{"tag": "vinery:grapejuice"},{"item": "minecraft:sugar"},{"item": "minecraft:feather"},{"item": "minecraft:experience_bottle"}],"result": {"item": "vinery:cristel_wine"}});

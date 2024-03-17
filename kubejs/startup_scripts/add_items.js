@@ -26,6 +26,8 @@ StartupEvents.registry('item', e => {
     e.create('dread_shard').displayName('\u00A78' + 'Dread Fragment').fireResistant(true)
     e.create('dread_steel_shard').displayName('\u00A75' + 'Dreadsteel Shard').rarity('epic').fireResistant(true)
     e.create('essence_of_the_graveyard').displayName('\u00A7c' + 'Essence of the Graveyard')
+    e.create('refined_radiance').displayName('Refined Radiance')
+    e.create('shadow_steel').displayName('Shadow Steel')
     
     // If you want to specify a different texture location you can do that too, like this:
     // e.create('test_item_1').texture('mobbo:item/lava') // This texture would be located at kubejs/assets/mobbo/textures/item/lava.png

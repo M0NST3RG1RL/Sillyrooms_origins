@@ -57,3 +57,8 @@ craftingTable.addShapeless('hearty_salad_1', <item:culturaldelights:hearty_salad
 <recipetype:farmersdelight:cutting>.addRecipe('corn_kernels_1', <item:culturaldelights:wild_corn>, [<item:culturaldelights:corn_kernels> % 100, <item:culturaldelights:corn_kernels> % 50], <tag:items:forge:tools/knives>);
 
 <recipetype:farmersdelight:cutting>.addRecipe('corn_kernels_2', <item:culturaldelights:corn_cob>, [<item:culturaldelights:corn_kernels> % 100, <item:culturaldelights:corn_kernels> % 100, <item:culturaldelights:corn_kernels> % 50, <item:farmersdelight:straw> % 100], <tag:items:forge:tools/knives>);
+
+
+<recipetype:farmersdelight:cooking>.addRecipe("spicy_curry_1", <item:culturaldelights:spicy_curry>, [<item:minecraft:glowstone_dust>, <item:farmersdelight:tomato_sauce>, <item:farmersdelight:cooked_rice>, <tag:items:forge:crops/onion>, <tag:items:forge:cooked_chicken>, <tag:items:forge:milk>], <constant:farmersdelight:cooking_pot_recipe_book_tab:meals>, <item:minecraft:bowl>, 0.35, 200);
+
+<recipetype:create:mixing>.addRecipe("spicy_curry_2", <constant:create:heat_condition:heated>, [<item:culturaldelights:spicy_curry> % 100.0], [<item:minecraft:glowstone_dust>, <item:farmersdelight:cooked_rice>, <tag:items:forge:crops/onion>, <tag:items:forge:cooked_chicken>, <item:minecraft:bowl>], [<fluid:create_central_kitchen:tomato_sauce> * 250, <fluid:minecraft:milk> * 250]);

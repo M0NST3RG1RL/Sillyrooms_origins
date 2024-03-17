@@ -1,14 +1,14 @@
 import mods.create.MixingManager;
 import crafttweaker.api.recipe.FurnaceRecipeManager;
 import mods.create.FillingManager;
-import mods.create.MixingManager;
+import mods.create.MillingManager;
 
 <recipetype:create:mixing>.remove(<item:create_confectionery:honey_candy>);
-<recipetype:create:mixing>.addRecipe('honey_candy_1', <constant:create:heat_condition:heated>, [(<item:create_confectionery:honey_candy> * 4) % 100], [<item:minecraft:sugar> * 2, <tag:items:forge:flour/wheat>], [<tag:fluids:forge:honey> * 250]);
+<recipetype:create:mixing>.addRecipe('honey_candy_1', <constant:create:heat_condition:none>, [(<item:create_confectionery:honey_candy> * 4) % 100], [<item:minecraft:sugar> * 2, <tag:items:forge:flour/wheat>], [<tag:fluids:forge:honey> * 250]);
 
 
 <recipetype:create:mixing>.remove(<item:create_confectionery:gingerdough>);
-<recipetype:create:mixing>.addRecipe('gingerdough_1', <constant:create:heat_condition:none>, [<item:create_confectionery:gingerdough> % 100], [<item:minecraft:sugar>, <item:create:cinder_flour>, <tag:items:forge:flour/wheat>], [<tag:fluids:forge:honey> * 250]);
+<recipetype:create:mixing>.addRecipe('gingerdough_1', <constant:create:heat_condition:none>, [<item:create_confectionery:gingerdough> % 100], [<item:minecraft:sugar>, <tag:items:forge:flour/wheat>], [<tag:fluids:forge:honey> * 250]);
 
 
 craftingTable.addShapeless('soothing_hot_chocolate_1', <item:create_confectionery:soothing_hot_chocolate>, [<item:create_confectionery:hot_chocolate_bottle>, <item:puresmores:marshmallow>]);
@@ -31,8 +31,12 @@ furnace.addRecipe('caramelized_marshmellow_on_a_stick_1', <item:create_confectio
 
 
 <recipetype:create:mixing>.remove(<item:create_confectionery:marshmallow>);
-<recipetype:create:mixing>.addRecipe('confectionary_marshmellow_1', <constant:create:heat_condition:heated>, [(<item:create_confectionery:marshmallow> * 8) % 100], [<item:minecraft:sugar> * 2, <tag:items:forge:slimeballs>], [<fluid:minecraft:water> * 250], 100);
+<recipetype:create:mixing>.addRecipe('confectionary_marshmellow_1', <constant:create:heat_condition:none>, [(<item:create_confectionery:marshmallow> * 8) % 100], [<item:minecraft:sugar> * 2, <tag:items:forge:slimeballs>], [<fluid:minecraft:water> * 250], 100);
 
 
 craftingTable.remove(<item:create_confectionery:full_chocolate_bar>);
 craftingTable.addShapeless('full_chocolate_bar_1', <item:create_confectionery:full_chocolate_bar>, [<tag:items:forge:bars/chocolate>, <tag:items:forge:bars/chocolate>, <tag:items:forge:bars/chocolate>, <tag:items:forge:bars/chocolate>, <tag:items:forge:bars/chocolate>, <tag:items:forge:bars/chocolate>, <tag:items:forge:paper>]);
+
+
+
+<recipetype:create:milling>.addRecipe('cocoa_powder_1', [<item:create_confectionery:cocoa_powder> % 100, <item:create_confectionery:cocoa_butter> % 75], <item:create_confectionery:crushed_cocoa>);
