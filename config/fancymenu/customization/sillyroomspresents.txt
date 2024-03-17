@@ -1,0 +1,68 @@
+type = menu
+
+customization-meta {
+  identifier = de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = purblforest
+  action = setbackgroundpanorama
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  original_pos_size_calculation = true
+  x = 227
+  width = 506
+  action = deep_customization_element:drippy_overlay_logo
+  actionid = 52307fce-e6c8-40e2-b0b9-05d24e7d5ae71707408997025
+  y = 190
+  height = 126
+}
+
+customization {
+  custom_color_hex = #ae60a9
+  orientation = top-left
+  hidden = false
+  x = -1000000
+  width = 0
+  action = deep_customization_element:drippy_overlay_background
+  actionid = a4268eac-4989-42a7-afe8-3ee29ef4a61e1707408997026
+  y = -1000000
+  height = 0
+}
+
+customization {
+  custom_color_hex = #390055
+  orientation = bottom-centered
+  hidden = false
+  original_pos_size_calculation = false
+  x = -204
+  width = 408
+  action = deep_customization_element:drippy_overlay_progress_bar
+  actionid = ad40014b-9483-417e-b5ba-6089512632a91707408997026
+  y = -79
+  height = 11
+}
+
+customization {
+  path = sillyroomspresents.png
+  orientation = top-centered
+  x = -150
+  width = 301
+  action = addtexture
+  actionid = 3b630ad4-883f-4b4f-9035-ab8a70dc2b7d1707417238045
+  y = 96
+  height = 49
+}
+

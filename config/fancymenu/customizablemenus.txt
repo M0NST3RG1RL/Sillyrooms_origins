@@ -1,0 +1,11 @@
+type = customizablemenus
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+com.swdteam.panorama.ui.GuiPanoramaSelector {
+}
+
+net.minecraft.client.gui.screens.TitleScreen {
+}
+
