@@ -1,3 +1,6 @@
+import mods.create.SequencedAssemblyManager;
+
+
 craftingTable.remove(<item:create_new_age:netherite_magnet>);
 craftingTable.addShaped('netherite_magnet_1', <item:create_new_age:netherite_magnet>, [
     [<item:minecraft:netherite_scrap>, <item:create_new_age:overcharged_diamond>, <item:minecraft:netherite_scrap>],
@@ -19,4 +22,12 @@ craftingTable.addShaped('energiser_t3_1', <item:create_new_age:energiser_t3>, [
     [<item:rainbowcompound:overcharged_alloy>, <item:createutilities:void_casing>, <item:rainbowcompound:overcharged_alloy>],
     [<item:rainbowcompound:overcharged_alloy>, <item:createutilities:graviton_tube>, <item:rainbowcompound:overcharged_alloy>],
     [<item:minecraft:air>, <item:minecraft:end_rod>, <item:minecraft:air>]
+]);
+
+
+craftingTable.remove(<item:create_new_age:energiser_t1>);
+craftingTable.addShaped('energiser_t1_1', <item:create_new_age:energiser_t1>, [
+    [<item:create:andesite_alloy>, <item:create:copper_casing>, <item:create:andesite_alloy>],
+    [<item:create:andesite_alloy>, <item:createaddition:capacitor>, <item:create:andesite_alloy>],
+    [<item:minecraft:air>, <item:minecraft:lightning_rod>, <item:minecraft:air>]
 ]);

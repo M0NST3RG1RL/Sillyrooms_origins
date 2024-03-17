@@ -15,11 +15,11 @@ craftingTable.addShaped('coffee_beans_sack_1', <item:farmersrespite:coffee_beans
 ]);
 
 <recipetype:farmersdelight:cooking>.remove(<item:farmersrespite:blazing_chili>);
-<recipetype:farmersdelight:cooking>.addRecipe('blazing_chili_1', <item:farmersrespite:blazing_chili>, [<item:minecraft:blaze_powder>, <item:minecraft:blaze_powder>, <tag:items:forge:crops/nether_wart>, <tag:items:forge:crops/nether_wart>, <tag:items:forge:coffee_beans>, <tag:items:forge:raw_beef>], <constant:farmersdelight:cooking_pot_recipe_book_tab:meals>, <item:minecraft:bowl>, 0.35, 200);
+<recipetype:farmersdelight:cooking>.addRecipe('blazing_chili_1', <item:farmersrespite:blazing_chili>, [<item:minecraft:glowstone_dust>, <item:minecraft:glowstone_dust>, <item:farmersdelight:tomato_sauce>, <tag:items:forge:coffee_beans>, <tag:items:forge:raw_beef>, <tag:items:forge:raw_beef>], <constant:farmersdelight:cooking_pot_recipe_book_tab:meals>, <item:minecraft:bowl>, 0.35, 200);
 
 
 <recipetype:create:mixing>.remove(<item:farmersrespite:blazing_chili>);
-<recipetype:create:mixing>.addRecipe('blazing_chili_2', <constant:create:heat_condition:heated>, [<item:farmersrespite:blazing_chili> % 100], [<tag:items:forge:raw_beef>, <item:minecraft:bowl>, <item:minecraft:blaze_powder> * 2, <tag:items:forge:crops/nether_wart> * 2, <tag:items:forge:coffee_beans>], [], 200);
+<recipetype:create:mixing>.addRecipe('blazing_chili_2', <constant:create:heat_condition:heated>, [<item:farmersrespite:blazing_chili> % 100], [<item:minecraft:glowstone_dust>, <item:minecraft:glowstone_dust>, <item:farmersdelight:tomato_sauce>, <tag:items:forge:coffee_beans>, <tag:items:forge:raw_beef>, <tag:items:forge:raw_beef>], [], 200);
 
 
 <recipetype:farmersrespite:brewing>.remove(<item:farmersrespite:coffee>);

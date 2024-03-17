@@ -1,0 +1,5 @@
+val dyes = [[<item:minecraft:white_dye>, <item:chalk:white_chalk>], [<item:minecraft:orange_dye>, <item:chalk:orange_chalk>], [<item:minecraft:magenta_dye>, <item:chalk:magenta_chalk>], [<item:minecraft:light_blue_dye>, <item:chalk:light_blue_chalk>], [<item:minecraft:yellow_dye>, <item:chalk:yellow_chalk>], [<item:minecraft:lime_dye>, <item:chalk:lime_chalk>], [<item:minecraft:pink_dye>, <item:chalk:pink_chalk>], [<item:minecraft:gray_dye>, <item:chalk:gray_chalk>], [<item:minecraft:light_gray_dye>, <item:chalk:light_gray_chalk>], [<item:minecraft:cyan_dye>, <item:chalk:cyan_chalk>], [<item:minecraft:purple_dye>, <item:chalk:purple_chalk>], [<item:minecraft:blue_dye>, <item:chalk:blue_chalk>], [<item:minecraft:brown_dye>, <item:chalk:brown_chalk>], [<item:minecraft:green_dye>, <item:chalk:green_chalk>], [<item:minecraft:red_dye>, <item:chalk:red_chalk>], [<item:minecraft:black_dye>, <item:chalk:black_chalk>]];
+
+for index, array in dyes{
+    craftingTable.addShapeless('chalk_' + index, array[1], [<item:regions_unexplored:chalk>, array[0]]);
+}

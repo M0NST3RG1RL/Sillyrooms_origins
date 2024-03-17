@@ -38,7 +38,7 @@ import mods.create.MixingManager;
 
 
 <recipetype:create:mixing>.remove(<item:gourmet:fried_chicken>);
-<recipetype:create:mixing>.addRecipe('fried_chicken_1', <constant:create:heat_condition:heated>, [<item:gourmet:fried_chicken> % 100], [<item:gourmet:raw_drumstick>, <tag:items:forge:flour/wheat>], [<tag:fluids:forge:plantoil> * 100]);
+<recipetype:create:mixing>.addRecipe('fried_chicken_1', <constant:create:heat_condition:none>, [<item:gourmet:fried_chicken> % 100], [<item:gourmet:raw_drumstick>, <tag:items:forge:flour/wheat>], [<tag:fluids:forge:plantoil> * 100]);
 
 
 <recipetype:create:mixing>.remove(<fluid:gourmet:batter>);
