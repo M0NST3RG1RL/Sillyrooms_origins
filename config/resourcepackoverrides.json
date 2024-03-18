@@ -1,0 +1,30 @@
+{
+    "schema_version": 2,
+    "failed_reloads_per_session": 5,
+    "default_packs": [
+      "vanilla",
+      "mod_resources",
+      "Betterjukebox Generated Pack",
+      "Supplementaries Generated Pack",
+      "eatinganimations_compat",
+      "file/Sillyrooms Adjustments"
+    ],
+    "default_overrides": {
+      "force_compatible": true
+    },
+    "pack_overrides": {
+      "1": [
+        "vanilla",
+        "mod_resources",
+        "Betterjukebox Generated Pack",
+        "Supplementaries Generated Pack",
+        "eatinganimations_compat",
+        "file/Sillyrooms Adjustments"
+      ],
+      "$$1": {
+        "hidden": true,
+        "required": true,
+        "fixed_position": true
+      }
+    }
+  }
